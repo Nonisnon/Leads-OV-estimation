@@ -1,57 +1,55 @@
 # Data Project README file
 
-My project README file
-Image
+# My project README file
 
-Name
-Leads OV estimation
+---
 
+![Image](https://res.cloudinary.com/springboard-images/image/upload/q_auto,f_auto,fl_lossy/wordpress/2019/05/aiexcerpt.png)
+## **Name**
+Leads order volume estimation
 
-🏃 One-liner
+### :baby: **Status**
+Ready to run!!
+
+### :running: **One-liner**
 There are 2 different datasource involved:
 
-Deliveroo restaurants data with avg order volume per week
+ - Deliveroo restaurants data base with avg weekly order volume
 
-Tripadvisor web Scraping. 
+ - Tripadvisor Madrid web scraping
 
+ 
+ We are going to find out the order volume estimation of the restaurants that we don't have in deliveroo
+### :computer: **Technology stack**
+Python, Pandas, BeautifulSoup, Argparse, H2o, Pycharm, Jupyter and Geocode from google
 
-💻 Technology stack
-Python, Pandas, BeautifulSoup, Argparse, H2o, geocode by google
+### :boom: **Core technical concepts and inspiration**
+- Make easier the business developments managers live giving them the most valuable restaurants for Deliveroo
 
-💥 Core technical concepts and inspiration
-Our main object is to estimate the order volume of the restaurants that we don't have in deliveroo to make easier the business developments work
-🔧 Configuration
-Requirements:
-
-Path: data/raw/raw_data_project_m1.db
-URL: https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Country_codes
 Libraries:
+- You can check it in requirements.txt
 
-You can check it in requirements.txt
-📁 Folder structure
+### :file_folder: **Folder structure**
+```
 └── project
     ├── data
         ├── raw
             ├──.db
-    ├── processed
-    ├── results
-        ├── data_grouped
     ├── notebooks
-    │   ├── data,api,webscraping.ipynb
-    │   └── Function tables.ipynb
-    ├── p_acquisition
-        ├── m_acquisition.py
-    ├── p_analysis
-        ├── m_analysis.py
-    ├── p_reporting
-        ├── m_reporting.py
-    ├── p_wrangling
-        ├── m_wrangling.py
+    │   ├── cleaning.ipynb
+    │   └── H2o.ipynb
     ├── .env.txt
     ├── .gitignore
-    ├── main_script.py
+    ├── finalprojectscrape.py
     ├── README.md
     ├── requirements.txt
 
-💌 Contact info
+```
+
+### :love_letter: **Contact info**
 If you have any doubts contact me through antoniodediegosuanzes@gmail.com
+
+---
+
+
+
